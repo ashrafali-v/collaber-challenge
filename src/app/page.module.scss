@@ -1,0 +1,26 @@
+/* styles/Navbar.module.scss */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+.addform{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.addbutton{
+  cursor: pointer;
+}
